@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- esta línea indica que estamos usando HTML5 -->
+<html lang="en"> <!-- abre el elemento html y especifica el idioma predeterminado en inglés -->
+
+<head> <!-- abre la cabeza del documento -->
+    <meta charset="UTF-8"> <!-- especifica la codificación de caracteres utilizada para el documento -->
+    <title>THE GOAT</title> <!-- define el título de la página -->
+
+</head> <!-- cierra la cabeza del documento -->
+
+<body> <!-- abre el cuerpo del documento -->
+    <main> <!-- abre el elemento main, que representa el contenido principal de la página -->
+        <h1>Lionel Messi</h1> <!-- inserta un encabezado de nivel 1 en el cuerpo de la página -->
+
+
+
+
+
+        <section> <!-- abre una sección -->
+            <h2>Messi Photos</h2> <!-- inserta un encabezado de nivel 2 -->
+            <!-- TODO: Add link to cat photos -->
+            <p>See more <a target="_blank"
+                    href="https://messi.com/galeria/?mgc_45=10/fotos&mgi_45=19917/argentina-vs-francia">Messi Photos</a>
+                in this gallery.</p><!--La etiqueta <p></p> en HTML se utiliza para definir un párrafo-->
+            <!-- inserta un párrafo y un enlace a una galería de fotos de messi -->
+            <a href="https://es.wikipedia.org/wiki/Lionel_Messi"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
+                    alt="messi kissing the world cup."></a>
+            <!-- inserta una imagen de messi, se utiliza para crear un enlace a otra página web, a otra sección de la misma página, a un archivo descargable u otra acción similar. El atributo href es obligatorio y especifica la URL del destino del enlace.-->
+
+
+        </section> <!-- cierra la sección -->
+
+
+
+
+
+
+        <section> <!-- abre otra sección -->
+            <h2>Most important titles</h2> <!-- inserta un encabezado de nivel 2 -->
+            <h3>titles</h3>
+            <!-- inserta un encabezado de nivel 3 y una lista no ordenada titulos mas importantes de messi -->
+            <ul>
+                <li>world cup 2022</li>
+                <li>america cup 2021 </li>
+                <li>uefa champions league 2009 and 2011</li>
+            </ul>
+            <figure>
+                <!-- inserta una figura que contiene una imagen de messi besando la copa y un pie de figura que indica que messi besa la copa del mundo -->
+                <img src="https://www.reportajes.com/u/fotografias/m/2022/12/20/f768x1-35155_35282_5050.jpg"
+                    alt="The best goal in champions league ever">
+                <figcaption>Messi <em>Kissing</em> World Cup</figcaption>
+            </figure>
+            <h3>Top 3 Goals:</h3>
+            <!-- inserta un encabezado de nivel 3 y una lista ordenada de 3 goles de messi -->
+            <ol>
+                <li>Vs Real Madrid semi final champions 2010/11</li>
+                <li>Vs Brasil 2012</li>
+                <li>Vs Francia World Cup 2022</li>
+            </ol>
+            <figure>
+                <!-- inserta una figura que contiene una imagen de messi y un pie de figura que indica que messi ama argentina -->
+                <img src="https://portalmulheramazonica.com.br/site//arquivos/imagens/imgeditor/tre33.jpg"
+                    alt="Messi Love Argentina">
+                <figcaption>Messi <strong>Love</strong> Argentina</figcaption>
+            </figure>
+        </section>
+
+
+
+
+
+
+
+
+        <section>
+            <!-- Etiqueta h2 para agregar un título a la sección -->
+            <h2>Argentina or Clubs</h2>
+            <form action="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiH_sOOqdD-AhWzNTUKHYUoB-cQPAgI">
+                <!-- Etiqueta fieldset para agrupar las opciones relacionadas -->
+                <fieldset>
+                    <legend>where is better?</legend>
+                    <!-- Botones de radio para seleccionar una opción única -->
+                    <label><input id="argentina" type="radio" name="argentina-clubs" value="argentina" checked>
+                        Argentina</label>
+                    <label><input id="clubs" type="radio" name="argentina-clubs" value="clubs"> Clubs</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What's Messi's personality?</legend>
+                    <!-- Casillas de verificación para seleccionar varias opciones -->
+                    <input id="humble" type="checkbox" name="personality" value="humble" checked> <label
+                        for="humble">Humble</label>
+                    <input id="determined" type="checkbox" name="personality" value="determined"> <label
+                        for="determined">Determined</label>
+                    <input id="talented" type="checkbox" name="personality" value="talented"> <label
+                        for="talented">Talented</label>
+                </fieldset>
+
+                <!-- Campo de entrada de texto para ingresar la URL de una foto -->
+                <input type="text" name="messiphotoURL" placeholder="messi photo URL"
+                    required><!--required solo para que si o si se escriba algo antes de apretar submit-->
+                <!-- Botón de envío del formulario -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+    </main>
+
+
+    <footer> <!--es la etiqueta que se utiliza para representar el pie de página en una página web-->
+        <p>
+            <!-- Enlace a https://www.instagram.com/leomessi -->
+            No Copyright - <a href="https://www.instagram.com/leomessi">leomessi instagram</a>
+        </p>
+    </footer>
+
+    </main>
+
+</body>
+
+</html>

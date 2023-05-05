@@ -1,0 +1,55 @@
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    padding: 10px 0; /* Añade un pequeño espacio alrededor del contenido */
+  }
+  
+  /* Estilos para los marcadores */
+  .marker {
+    width: 200px; /* Ancho del marcador */
+    height: 25px; /* Altura del marcador */
+    margin: 10px auto; /* Centra el marcador horizontalmente */
+  }
+  
+  /* Estilos para la tapa del marcador */
+  .cap {
+    width: 60px; /* Ancho de la tapa */
+    height: 25px; /* Altura de la tapa */
+  }
+  
+  /* Estilos para la funda del marcador */
+  .sleeve {
+    width: 110px; /* Ancho de la funda */
+    height: 25px; /* Altura de la funda */
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco semitransparente */
+    border-left: 10px double rgba(0, 0, 0, 0.75); /* Borde izquierdo doble en negro semitransparente */
+  }
+  
+  /* Estilos para la tapa y la funda del marcador */
+  .cap, .sleeve {
+    display: inline-block; /* Alinea ambos elementos en una línea */
+  }
+  
+  /* Estilos para el marcador rojo */
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27)); /* Fondo con degradado de color */
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); /* Sombra del marcador */
+  }
+  
+  /* Estilos para el marcador verde */
+  .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31); /* Fondo con degradado de color */
+    box-shadow: 0 0 20px 0 #3B7E20CC; /* Sombra del marcador */
+  }
+  
+  /* Estilos para el marcador azul */
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* Fondo con degradado de color */
+    box-shadow: 0 0 20px 0 hsl(223, 59%, 31%, 0.8); /* Sombra del marcador */
+  }
+  

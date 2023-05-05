@@ -1,0 +1,140 @@
+body {
+    /*Este bloque de código establece el fondo de la página con una imagen de granos de café, define
+     la fuente de texto y establece un relleno de 20 píxeles alrededor del contenido.*/
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    /* Elimina el margen superior */
+    margin-bottom: 15px;
+    /* Agrega un margen inferior */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    font-size: 30px;
+}
+
+/* Estilos para el texto que indica la fecha de fundación del café */
+.established {
+    font-style: italic;
+}
+
+/* Aplica el centrado de texto a los títulos y párrafos */
+h1,h2,p {
+    text-align: center;
+}
+
+/* Estilos para el menú */
+.menu {
+    width: 80%;
+    /* Ancho del menú */
+    background-color: burlywood;
+    /* Color de fondo del menú */
+    margin-left: auto;
+    /* Margen izquierdo automático para centrar el menú */
+    margin-right: auto;
+    /* Margen derecho automático para centrar el menú */
+    padding: 20px;
+    /* Espaciado interno del menú */
+    max-width: 500px;
+    /* Ancho máximo del menú */
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    /* Hace que la imagen sea un bloque para centrarla */
+    margin-left: auto;
+    /* Margen izquierdo automático para centrar la imagen */
+    margin-right: auto;
+    /* Margen derecho automático para centrar la imagen */
+    margin-top: -25px;
+    /* Mueve la imagen hacia arriba */
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    height: 2px;
+    /* Altura de la línea */
+    background-color: brown;
+    /* Color de fondo de la línea */
+    border-color: brown;
+    /* Color del borde de la línea */
+}
+
+/* Estilos para la línea inferior */
+.bottom-line {
+    margin-top: 25px;
+    /* Margen superior de la línea */
+}
+
+/* Estilos para los títulos */
+h1,h2 {
+    font-family: Impact, serif;
+    /* Fuente de los títulos */
+}
+
+/* Estilos para los párrafos de los elementos del menú */
+.item p {
+    display: inline-block;
+    /* Hace que los párrafos sean bloques en línea */
+    margin-top: 5px;
+    /* Margen superior de los párrafos */
+    margin-bottom: 5px;
+    /* Margen inferior de los párrafos */
+    font-size: 18px;
+    /* Tamaño de fuente de los párrafos */
+}
+
+/* Estilos para las descripciones de sabor */
+.flavor,.dessert {
+    text-align: left;
+    /* Alineación de texto a la izquierda */
+    width: 75%;
+    /* Ancho de las descripciones de sabor */
+}
+
+/* Estilos para los precios */
+.price {
+    text-align: right;
+    /* Alineación de texto a la derecha */
+    width: 25%;
+    /* Ancho de los precios */
+}
+
+/* Estilos para el pie de página */
+footer {
+    font-size: 14px;
+    /* Tamaño de fuente del pie de página */
+}
+
+.address {
+    margin-bottom: 5px;
+    /* Margen inferior de la dirección */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: black;
+    /* Color de los enlaces */
+}
+
+a:visited {
+    color: black;
+    /* Color de los enlaces visitados */
+}
+
+a:hover {
+    color: brown;
+    /* Color de los enlaces al pasar el cursor sobre ellos */
+}
+
+a:active {
+    color: brown;
+    /* Color de los enlaces al hacer clic en ellos */
+}

@@ -1,0 +1,33 @@
+<html>: Define el comienzo y el final del documento HTML.
+<head>: Contiene información sobre el documento, como su título, metadatos y enlaces a otros archivos.
+<title>: Define el título del documento, que aparece en la pestaña del navegador.
+<body>: Contiene el contenido visible del documento, como texto, imágenes y otros elementos.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Define los encabezados de diferentes niveles.
+<p>: Define un párrafo de texto.
+<a>: Crea un enlace a otra página web o a una ubicación dentro del mismo documento.
+<img>: Inserta una imagen en el documento.
+<ul> y <li>: Crea una lista no ordenada de elementos.
+<ol> y <li>: Crea una lista ordenada de elementos.
+<table>, <tr>, <td>: Crea una tabla con filas y columnas.
+<form>, <input>, <button>: Crea un formulario que puede ser enviado a un servidor web.
+<div> y <span>: Son elementos genéricos utilizados para agrupar otros elementos y aplicar estilos y comportamientos a ellos.
+
+<header>: Define el encabezado o la cabecera del documento.
+<footer>: Define el pie de página del documento.
+<nav>: Define una sección de navegación del documento.
+<section>: Agrupa contenido relacionado dentro del documento.
+<article>: Define un contenido independiente que puede ser distribuido por sí solo, como una entrada de blog o una noticia.
+<aside>: Define un contenido relacionado pero no esencial para el contenido principal del documento, como una barra lateral o un cuadro de anuncios.
+<blockquote>: Cita un fragmento de texto de otra fuente.
+<cite>: Cita la fuente de un trabajo, como un libro o un artículo.
+<em> y <strong>: Aplican énfasis al texto, como itálica o negrita respectivamente.
+<code>: Define un fragmento de código en el documento.
+<video> y <audio>: Inserta un archivo de video o audio en el documento.
+<iframe>: Inserta una página web dentro de otra página web.
+<hr>: Crea una línea horizontal en el documento.
+
+El atributo method="post" se utiliza en un formulario HTML para especificar la forma en que se enviarán los datos del formulario al servidor web cuando el usuario envía el formulario. Cuando se utiliza el método post, los datos del formulario se envían en el cuerpo de la solicitud HTTP en lugar de como parte de la URL.
+
+Cuando el usuario envía un formulario utilizando el método post, los datos del formulario se envían al servidor en segundo plano y no se muestran en la barra de direcciones del navegador. Esto puede ser útil cuando se envían datos sensibles, como contraseñas o información de tarjetas de crédito, ya que no se exponen en la URL.
+
+En resumen, method="post" es una forma de enviar datos de un formulario al servidor de forma segura y discreta, ocultando los datos de la URL.

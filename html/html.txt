@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- esta línea indica que estamos usando HTML5 -->
+<html lang="en"> <!-- abre el elemento html y especifica el idioma predeterminado en inglés -->
+<head> <!-- abre la cabeza del documento -->
+<meta charset="UTF-8"> <!-- especifica la codificación de caracteres utilizada para el documento -->
+    <title>CatPhotoApp</title> <!-- define el título de la página -->
+</head> <!-- cierra la cabeza del documento -->
+<body> <!-- abre el cuerpo del documento -->
+    <main> <!-- abre el elemento main, que representa el contenido principal de la página -->
+      <h1>CatPhotoApp</h1> <!-- inserta un encabezado de nivel 1 en el cuerpo de la página -->
+      <section> <!-- abre una sección -->
+        <h2>Cat Photos</h2> <!-- inserta un encabezado de nivel 2 -->
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p> <!-- inserta un párrafo y un enlace a una galería de fotos de gatos -->
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a> <!-- inserta una imagen de un gato -->
+      </section> <!-- cierra la sección -->
+      <section> <!-- abre otra sección -->
+        <h2>Cat Lists</h2> <!-- inserta un encabezado de nivel 2 -->
+        <h3>Things cats love:</h3> <!-- inserta un encabezado de nivel 3 y una lista no ordenada de cosas que a los gatos les gusta -->
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure> <!-- inserta una figura que contiene una imagen de lasaña y un pie de figura que indica que a los gatos les encanta la lasaña -->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3> <!-- inserta un encabezado de nivel 3 y una lista ordenada de cosas que a los gatos no les gusta -->
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure> <!-- inserta una figura que contiene una imagen de varios gatos y un pie de figura que indica que a los gatos no les gusta estar cerca de otros gatos -->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section> <!-- cierra la segunda sección -->
+      <section> <!-- abre otra sección -->
+        <h2>Cat Form</h2> <!-- inserta un encabezado de nivel 2 -->
+    <form action="https://freecatphotoapp.com/submit-cat-photo"> <!-- abre un formulario para enviar una foto de gato a una página externa -->
+      <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label> <!-- crea un botón de radio con la opción "Indoor" preseleccionada -->
+      <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label> <!-- crea un botón de radio con la opción "Outdoor" -->
+      <br> <!-- inserta un salto de línea -->
+      <label for="loving"><input id="loving" type="checkbox" name="personality" checked>Loving</label> <!-- crea una casilla de verificación con la opción "Loving" preseleccionada -->
+      <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label> <!-- crea una casilla de verificación con la opción "Lazy" -->
+      <label for="energetic"><input id="energetic" type="checkbox" name="personality">Energetic</label> <!-- crea una casilla de verificación con la opción "Energetic" -->
+      <br> <!-- inserta un salto de línea -->
+      <label for="cat-photo">Upload a cat photo:</label> <!-- crea una etiqueta que indica que se debe subir una foto de gato -->
+      <input id="cat-photo" type="file" name="cat-photo"> <!-- crea un campo de entrada para subir un archivo de imagen -->
+      <br> <!-- inserta un salto de línea -->
+      <button type="submit">Submit</button> <!-- crea un botón de envío del formulario -->
+    </form> <!-- cierra el formulario -->
+</main> <!-- cierra el contenido principal de la página -->
+
+
+
+
+
+
+
+
+TEORIA 
+Este código es una página HTML que muestra información sobre gatos. 
+
+La línea `<!DOCTYPE html>` define el tipo de documento como HTML5. 
+
+El siguiente elemento `<html lang="en">` es el elemento raíz del documento y especifica el idioma como inglés. 
+
+Dentro de `<html>`, el elemento `<head>` contiene información sobre la página que no se muestra en el navegador. La etiqueta `<meta charset="UTF-8">` especifica el juego de caracteres UTF-8 para la página. La etiqueta `<title>` establece el título de la página como "CatPhotoApp".
+
+El elemento `<body>` es donde se encuentra todo el contenido visible de la página. Dentro de `<body>` hay cuatro secciones principales (`<section>`), cada una con un encabezado (`<h2>`) y contenido relacionado. 
+
+La primera sección muestra una imagen de un gato y un enlace a una galería de fotos de gatos. 
+
+La segunda sección muestra dos listas, una con cosas que a los gatos les gusta y otra con cosas que no les gusta. Cada elemento de la lista está dentro de un elemento `<li>` y la lista ordenada tiene un elemento `<ol>` y la no ordenada un elemento `<ul>`. Además, se usan elementos `<figure>` y `<figcaption>` para agregar una imagen con su descripción.
+
+La tercera sección contiene un formulario (`<form>`) que pregunta si un gato es de interior o exterior y su personalidad. El formulario tiene dos grupos de botones de opciones (`<fieldset>`) y tres casillas de verificación (`<input type="checkbox">`). También hay un campo de texto (`<input type="text">`) y un botón de envío (`<button type="submit">`).
+
+Finalmente, el elemento `<footer>` contiene información sobre derechos de autor y un enlace a freeCodeCamp.org.
