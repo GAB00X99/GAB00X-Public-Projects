@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>GAB00X Team</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">GAB00X Team</h1>
+    <p id="description">Please fill out the form below to apply:</p>
+  </header>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" required placeholder="Enter your name">
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" required placeholder="Enter your email">
+
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" required placeholder="Enter your age" min="1" max="100">
+
+    <label for="dropdown">Programming experience:</label>
+    <select id="dropdown">
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select>
+
+    <label for="radio">Preferred programming languages:</label>
+    <div id="radio">
+      <label>
+        <input type="radio" name="radio-group" value="java"> Java
+      </label>
+      <label>
+        <input type="radio" name="radio-group" value="python"> Python
+      </label>
+      <label>
+        <input type="radio" name="radio-group" value="javascript"> JavaScript
+      </label>
+      <label>
+        <input type="radio" name="radio-group" value="c++"> C++
+      </label>
+      <label>
+        <input type="radio" name="radio-group" value="
+        others"> 
+        others
+      </label>
+    </div>
+
+    <label for="checkbox">Skills:</label>
+    <div id="checkbox">
+      <label>
+        <input type="checkbox" name="checkbox-group" value="web-development"> Web Development
+      </label>
+      <label>
+        <input type="checkbox" name="checkbox-group" value="mobile-development"> Mobile Development
+      </label>
+      <label>
+        <input type="checkbox" name="checkbox-group" value="data-science"> Data Science
+      </label>
+      <label>
+        <input type="checkbox" name="checkbox-group" value="machine-learning"> Machine Learning
+      </label>
+    </div>
+
+    <label for="comments">Why do you want to join GAB00X Team?</label>
+    <textarea class="input-textarea" id="comments" rows="5" placeholder="Enter your response"></textarea>
+
+    <button type="submit" id="submit">Submit Application</button>
+  </form>
+</body>
+
+</html>
