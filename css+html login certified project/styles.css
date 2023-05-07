@@ -6,6 +6,7 @@ body {
   padding: 20px;
   background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Coding-HD-Wallpaper-Free-download.jpg);
   background-size: cover;
+  
 }
 
 header {
@@ -70,9 +71,11 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  max-height: 120px; /* Establece una altura máxima para el textarea */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando el contenido excede la altura máxima */
 }
+
 .input-textarea {
-  min-height: 120px;
   width: 90%;
   padding: 0.625rem;
   resize: vertical;
@@ -92,4 +95,22 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+section{
+  display: flex;
+  width: auto;
+  height: auto;
+  
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+section img:hover{
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 }
