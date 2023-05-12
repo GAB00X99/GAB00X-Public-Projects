@@ -71,6 +71,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  width: 100px;
   max-height: 120px; /* Establece una altura máxima para el textarea */
   overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando el contenido excede la altura máxima */
 }
