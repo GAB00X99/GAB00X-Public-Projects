@@ -6,8 +6,26 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
   }
-  
+  @media (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+    /* Example: Reduce font size and adjust layout */
+    h2 {
+      font-size: 24px;
+    }
+    
+    .feature-item {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* Add more responsive styles as needed */
+  }
   #header-img {
     width: 125px;
     height: 100px;
@@ -43,16 +61,26 @@
   section h2 {
     color: #ffab00;
   }
+  h2 {
+    color: #ffab00;
+    text-align: center;
+  }
   
   section p {
     margin-bottom: 20px;
+    
   }
-  
+p {
+    margin-bottom: 20px;
+    
+    text-align: center;
+  }
   /* Form Styles */
   #form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   #email {
@@ -60,4 +88,10 @@
     height: 40px;
     margin-bottom: 20px;
     padding: 5px;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Ajusta la altura según tus necesidades */
   }
